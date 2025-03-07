@@ -1,7 +1,7 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
 		for(let char of str){
-     if(str.indexof(char)==str.lastIndexOf(char)){
+     if(str.indexOf(char)==str.lastIndexOf(char)){
          return char;
      }
  }
